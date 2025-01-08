@@ -6,6 +6,8 @@ This project provides a simple tool for training and testing a lightweight predi
 
 Utilized in [BBOT](https://github.com/blacklanternsecurity/bbot) within the [ffuf_shortnames](https://github.com/blacklanternsecurity/bbot/blob/dev/bbot/modules/ffuf_shortnames.py) module. 
 
+Sample models are included in the `trained_models` folder. These were trained based on data harvested from the [Common Crawl](https://commoncrawl.org/) project.
+
 ---
 
 ## Features
