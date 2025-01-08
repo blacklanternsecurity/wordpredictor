@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "word-predictor"
+version = "0.1.0"
+description = "A tool for predicting words based on prefixes using Word2Vec and lightweight models."
+authors = ["Paul Mueller <paul.mueller08@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/yourusername/word-predictor"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+gensim = "^4.3.1"
+tqdm = "^4.66.1"
+
+[tool.poetry.scripts]
+word-predictor = "word_predictor:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
